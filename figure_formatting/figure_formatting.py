@@ -58,6 +58,10 @@ formatting = {'font.family': 'sans-serif',
               'mathtext.bf': f'Helvetica',
               'font.size': fontsize,
               'axes.formatter.limits': (-3,3),
+              'axes.spines.bottom': True,
+              'axes.spines.left': True,
+              'axes.spines.right': False,
+              'axes.spines.top': False,
               'xtick.major.pad': 3,
               'ytick.major.pad': 3,
               'ytick.color': nearly_black,
@@ -97,4 +101,3 @@ def set_formatting(Dict: formatting=formatting) -> None:
 def set_palette(palette: OrderedDict) -> None:
     color_cycle = palette.values()
     rcParams['axes.prop_cycle'] = cycler(color=color_cycle)
-
