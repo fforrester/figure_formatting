@@ -2,7 +2,10 @@ from matplotlib import rc
 from matplotlib import rcParams
 from matplotlib import cycler
 from matplotlib.pyplot import locator_params
+from cmcrameri import cm
 from collections import OrderedDict
+import numpy as np
+
 
 # ---------------------------------------------------
 # Color sets
@@ -361,6 +364,8 @@ def set_formatting(Dict: formatting = formatting, context=None) -> None:
         formatting.update({k: 1.4 for k in line_entries})
     for k, v in formatting.items():
         rcParams[k] = v
+    color_cycler = cycler(color=cm.batlowS(np.linspace(0, 1, 10)))
+    rcParams['axes.prop_cycle'] = color_cycler
 
 def respine():
     rcParams["axes.spines.right"] = True
@@ -370,3 +375,5 @@ def respine():
 def set_palette(palette: OrderedDict) -> None:
     color_cycle = palette.values()
     rcParams["axes.prop_cycle"] = cycler(color=color_cycle)
+
+
