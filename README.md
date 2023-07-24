@@ -6,7 +6,7 @@ An installable Python package intended to make it easier to produce near-publica
 
 Clone the repo and install:
 ```
-git clone git@github.com:alexsquires/figure_formatting.git
+git clone git@github.com:fforrester/figure_formatting.git
 cd figure_formatting
 pip install .
 ```
