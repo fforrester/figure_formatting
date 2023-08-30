@@ -322,7 +322,6 @@ formatting = {
     "ytick.color": nearly_black,
     "xtick.color": nearly_black,
     "xtick.top": True,
-    "xtick.top.direction": "in",
     "xtick.labelsize": fontsize,
     "ytick.labelsize": fontsize,
     "ytick.major.size": 3,
