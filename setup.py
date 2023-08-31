@@ -14,10 +14,10 @@ setup(
     description="Python utilities for generating publication-quality figures",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Benjamin J. Morgan",
-    author_email="bjm42@bath.ac.uk",
-    url="https://github.com/bjmorgan/figure_formatting",
-    download_url="https://github.com/bjmorgan/figure_formatting/archive/{}.tar.gz".format(
+    author="Frazer N. Forrester",
+    author_email="f.forrester2@newcastle.ac.uk",
+    url="https://github.com/fforrester/figure_formatting",
+    download_url="https://github.com/fforrester/figure_formatting/archive/{}.tar.gz".format(
         VERSION
     ),
     license="MIT",
