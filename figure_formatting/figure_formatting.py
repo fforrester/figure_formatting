@@ -2,6 +2,7 @@ from matplotlib import rc
 from matplotlib import rcParams
 from matplotlib import cycler
 from matplotlib.pyplot import locator_params
+from matplotlib.ticker import AutoMinorLocator
 from cmcrameri import cm
 from collections import OrderedDict
 import numpy as np
