@@ -369,6 +369,18 @@ def set_formatting(Dict: formatting = formatting, context=None) -> None:
     color_cycler = cycler(color=cm.batlowS(np.linspace(0, 1, 10)))
     rcParams['axes.prop_cycle'] = color_cycler
 
+# Create an AutoMinorLocator for both x and y axes
+    minor_locator_x = AutoMinorLocator()
+    minor_locator_y = AutoMinorLocator()
+
+    # Set the number of minor ticks for both axes (adjust as needed)
+    minor_locator_x.set_params(n=2)  # Adjust the number of minor ticks for the x-axis
+    minor_locator_y.set_params(n=2)  # Adjust the number of minor ticks for the y-axis
+
+    # Add the minor locators to the current formatting dictionary
+    Dict["axes.xaxis.minor_locator"] = minor_locator_x
+    Dict["axes.yaxis.minor_locator"] = minor_locator_y
+
 def unspine():
     rcParams["axes.spines.right"] = False
     rcParams["axes.spines.top"] = False
