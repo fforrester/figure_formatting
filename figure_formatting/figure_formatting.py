@@ -332,8 +332,6 @@ formatting = {
     "xtick.minor.width": linewidth,
     "ytick.major.width": linewidth,
     "ytick.minor.width": linewidth,
-    "xtick.minor.visible": True,
-    "ytick.minor.visible": True,
     "axes.labelcolor": nearly_black,
     "legend.facecolor": white,
     "legend.fancybox": False,
