@@ -21,6 +21,6 @@ setup(
         VERSION
     ),
     license="MIT",
-    install_requires=["matplotlib","cmcrameri"],
+    install_requires=["matplotlib"],
     python_requires=">=3.7",
 )
