@@ -15,5 +15,5 @@ pip install .
 See the [examples](./examples) directory.
 
 ## Authors:
-Frazer N. Forrester (oscarballantyne)
-Oscar J. B. Ballantyne
+- Frazer N. Forrester (oscarballantyne)
+- Oscar J. B. Ballantyne
