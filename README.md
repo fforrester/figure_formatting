@@ -14,6 +14,6 @@ pip install .
 ## Example usage:
 See the [examples](./examples) directory.
 
-## Authors:
-- Frazer N. Forrester (oscarballantyne)
-- Oscar J. B. Ballantyne
+## Contributors:
+- Frazer N. Forrester 
+- Oscar J. B. Ballantyne (@oscarballantyne)
