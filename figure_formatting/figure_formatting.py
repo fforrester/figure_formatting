@@ -368,6 +368,9 @@ def set_formatting(Dict: formatting = formatting, context=None) -> None:
     for k, v in formatting.items():
         rcParams[k] = v
 
+def set_palette(palette: OrderedDict) -> None:
+    color_cycle = palette.values()
+    rcParams['axes.prop_cycle'] = cycler(color=color_cycle)
 
 def unspine():
     rcParams["axes.spines.right"] = False
