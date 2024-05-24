@@ -65,7 +65,7 @@ colors = {
         8: "#800026",
     },
     
-"green": {
+"yellowy_green": {
         0: "#FFFFE5",
         1: "#F7FCB9",
         2: "#D9F0A3",
