@@ -10,7 +10,7 @@ import numpy as np
 # ---------------------------------------------------
 # Color sets
 # ---------------------------------------------------
-# Standard tableau 20 set
+# Standard tableau 11 set
 tableau = OrderedDict(
     [
         ("blue", "#1D91C0"),
