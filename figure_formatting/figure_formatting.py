@@ -13,17 +13,17 @@ import numpy as np
 # Standard tableau 11 set
 tableau = OrderedDict(
     [
-        ("blue", "#1D91C0"),
-        ("orange", "#FD8D3C"),
-        ("green", "#41AB5D"),
-        ("pink", "#F768A1"),
-        ("yellow", "#FFE433"),
-        ("purple", "#7A0177"),
-        ("red", "#E31A1C"),
-        ("grey", "#7F7F7F"),
-        ("lightblue", "#71C8EA"),
-        ("lightorange", "#FEAC72"),
-        ("lightgreen", "#ADDD8E"),
+        ("blue", "#0072B2"),
+        ("orange", "#E69F00"),
+        ("vermilion","#D55E00"),
+        ("reddish", "#CC79A7"),
+        ("green", "#009E73"),
+        ("skyblue", "#56B4E9"),
+        ("pink","#FAAFE4"),
+        ("brown","#CA9161"),
+        ("yellow", "#F0E442"),
+        ("black","#000000")
+
     ]
 )
 
