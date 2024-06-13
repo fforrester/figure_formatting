@@ -4,7 +4,13 @@ An installable Python package intended to make it easier to produce near-publica
 
 Colour pallets are given in the examples directory.
 
-**Important Note:** Sequential palettes are all created to be colour-blind friendly; however, care should be taken when using the "standard" palette, as these may not be. It is a best practice to design graphics in such a way that they do not rely solely on colour. This ensures accessibility for individuals with colour vision deficiencies and improves readability in various conditions, such as black-and-white printing or low-contrast display.
+**A Note on Colour:** All palettes are colour-blind friendly in isolation; however, care should be taken when mixing. 
+
+That being said, it is best practice to design figures in such a way that they do not rely solely on colour. This not only ensures accessibility for individuals with colour vision deficiencies but improves readability in various conditions, such as black-and-white printing or low-contrast display.
+
+**A Note on Size and proportion**
+- Golden ratio 1:1.618
+- In most cases, figures should be designed to fit a single column (8.3 cm or 3.15 in) or double column (17.1 cm or 6.73 in) width but must be no larger than 23.3cm.
 
 ## Installation
 
