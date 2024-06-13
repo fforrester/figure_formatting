@@ -8,7 +8,7 @@ Colour pallets are given in the examples directory.
 
 That being said, it is best practice to design figures in such a way that they do not rely solely on colour. This not only ensures accessibility for individuals with colour vision deficiencies but improves readability in various conditions, such as black-and-white printing or low-contrast display.
 
-**A Note on Size and proportion**
+**A Note on Size and Proportion**
 - Golden ratio 1:1.618
 - In most cases, figures should be designed to fit a single column (8.3 cm or 3.15 in) or double column (17.1 cm or 6.73 in) width but must be no larger than 23.3cm.
 
