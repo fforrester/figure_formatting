@@ -196,9 +196,7 @@ formatting = {
     "lines.linewidth": linewidth,
     "figure.dpi": 127,
     "figure.figsize": (3.15, 1.95),
-}  # Default size = landscape (8 cm width + golden ratio)
-
-fig_size = (3.15, 1.95)
+}  # Default size = landscape (8 cm width + golden ratio(1.618)
 
 
 def square_ax(ax):
