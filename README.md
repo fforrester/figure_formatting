@@ -4,9 +4,8 @@ An installable Python package intended to make it easier to produce near-publica
 
 Colour pallets are given in the examples directory.
 
-**A Note on Colour:** All palettes are colour-blind friendly in isolation; however, care should be taken when mixing. 
-
-That being said, it is best practice to design figures in such a way that they do not rely solely on colour. This not only ensures accessibility for individuals with colour vision deficiencies but improves readability in various conditions, such as black-and-white printing or low-contrast display.
+**A Note on Colour:** 
+All palettes are colour-blind friendly in isolation; however, care should be taken when mixing. That being said, it is best practice to design figures in such a way that they do not rely solely on colour. This not only ensures accessibility for individuals with colour vision deficiencies but improves readability in various conditions, such as black-and-white printing or low-contrast display.
 
 **A Note on Size and Proportion**
 - Golden ratio 1:1.618
