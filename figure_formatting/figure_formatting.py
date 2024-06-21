@@ -199,7 +199,6 @@ formatting = {
     "mathtext.rm": f"Helvetica",
     "mathtext.it": f"Helvetica:italic",
     "mathtext.bf": f"Helvetica",
-    "text.usetex":True,
     "svg.fonttype":"none",
     "font.size": fontsize,
     "axes.formatter.limits": (-3, 3),
