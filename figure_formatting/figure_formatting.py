@@ -221,11 +221,11 @@ formatting = {
     "ytick.major.width": linewidth,
     "ytick.minor.width": linewidth,
     "axes.labelcolor": nearly_black,
-    "legend.facecolor": white,
+    "legend.facecolor": none, #could be white
     "legend.fancybox": False,
     "legend.frameon": False,
     "savefig.bbox": "tight",
-    "axes.facecolor": white,
+    "axes.facecolor": none, #could be white
     "axes.labelpad": 2,
     "axes.labelsize": fontsize,
     "axes.titlesize": fontsize,
