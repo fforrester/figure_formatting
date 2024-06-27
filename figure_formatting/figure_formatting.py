@@ -245,7 +245,6 @@ def square_ax(ax):
     ax.set_aspect(1.0 / ax.get_data_ratio())
 
 def set_formatting(Dict: formatting = formatting, context=None) -> None:
-
     if context == "talk":
         formatting.update({k: 16 for k in text_entries})
         formatting.update({k: 1.4 for k in line_entries})
@@ -257,7 +256,7 @@ def set_palette(palette: OrderedDict = None) -> None:
         color_cycle = tableau.values()
     else:
         color_cycle = palette.values()
-    rcParams['axes.prop_cycle'] = cycler(color=color_cycle)
+        rcParams['axes.prop_cycle'] = cycler(color=color_cycle)
 
 def unspine():
     rcParams["axes.spines.right"] = False
