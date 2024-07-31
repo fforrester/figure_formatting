@@ -252,12 +252,9 @@ def set_formatting(Dict: formatting = formatting, context=None) -> None:
     for k, v in formatting.items():
         rcParams[k] = v
 
-def set_palette(palette: OrderedDict = None) -> None:
-    if palette is None:
-        color_cycle = tableau.values()
-    else:
-        color_cycle = palette.values()
-        rcParams['axes.prop_cycle'] = cycler(color=color_cycle)
+def set_palette(palette=tableau):
+    color_cycle = list(palette.values())
+    rcParams['axes.prop_cycle'] = cycler(color=color_cycle)
 
 def unspine():
     rcParams["axes.spines.right"] = False
