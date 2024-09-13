@@ -245,13 +245,18 @@ formatting = {
 def square_ax(ax):
     ax.set_aspect(1.0 / ax.get_data_ratio())
 
+def set_palette(palette=tableau):
+    """Set the colour palette for the plots."""
+    color_cycle = list(palette.values())
+    rcParams['axes.prop_cycle'] = cycler(color=color_cycle)
+
 def set_formatting(Dict: formatting = formatting, context=None, palette=tableau) -> None:
     if context == "talk":
         formatting.update({k: 16 for k in text_entries})
         formatting.update({k: 1.4 for k in line_entries})
     for k, v in formatting.items():
         rcParams[k] = v
-    # Set the color palette
+    # Set the colour palette
     set_palette(palette)
 
 def unspine():
