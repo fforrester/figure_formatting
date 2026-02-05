@@ -9,3 +9,7 @@ import matplotlib as mpl; print(mpl.get_cachedir())
 ```
 import matplotlib ; matplotlib.matplotlib_fname()
 ```
+### May have to delete the following cache:
+```
+rm -f ~/.matplotlib/fontlist-v*.json
+```
